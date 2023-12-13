@@ -14,9 +14,9 @@ S-Chatbot is a Streamlit-based chatbot powered by GooglePalm language model. It 
 
 Before you begin, make sure you have the following installed:
 
-- [Python](https://www.python.org/) (version X.X.X)
-- [Streamlit](https://streamlit.io/) (version X.X.X)
-- [langchain](https://github.com/your-langchain-repository) (version X.X.X)
+- [Python](https://www.python.org/) 
+- [Streamlit](https://streamlit.io/) 
+- [langchain](https://github.com/your-langchain-repository) 
 
 ### Installation
 
@@ -54,5 +54,5 @@ Contributions are welcome! Please follow the contribution guidelines before subm
 This project is licensed under the MIT License.
 
 ### Acknowledgments
-Streamlit: https://streamlit.io/
-langchain: https://github.com/your-langchain-repository
+Streamlit: [https://streamlit.io/](https://streamlit.io/)
+
