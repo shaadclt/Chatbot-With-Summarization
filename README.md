@@ -18,6 +18,7 @@ Before you begin, make sure you have the following installed:
 - [Streamlit](https://streamlit.io/) 
 - [langchain](https://github.com/your-langchain-repository) 
 
+
 ### Installation
 
 1. Clone the repository:
@@ -33,6 +34,7 @@ cd Chatbot-With-Summarization
 pip install -r requirements.txt
 ```
 
+
 ### Usage
 
 1. Run the Streamlit app:
@@ -42,10 +44,12 @@ streamlit run app.py
 ```
 
 2. Open your web browser and go to http://localhost:8501 to interact with the chatbot.
+   
 
 ### Configuration
 
 To use GooglePalm API, obtain an API key and paste it in the Streamlit sidebar.
+
 
 ### Contributing
 Contributions are welcome! Please follow the contribution guidelines before submitting pull requests.
