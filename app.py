@@ -105,5 +105,5 @@ def set_bg_from_url(url, opacity=1):
     )
 
 # Set background image from URL
-set_bg_from_url("https://www.shutterstock.com/image-vector/concept-chatbot-cartoon-cute-white-260nw-2272101605.jpg", opacity=0.875)
+set_bg_from_url("https://verloop.io/wp-content/uploads/11-Oct-2022-1200x600.jpg", opacity=0.875)
  
