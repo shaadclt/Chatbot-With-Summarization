@@ -1,5 +1,7 @@
 # S-Chatbot
 
+![image](https://github.com/shaadclt/Chatbot-With-Summarization/assets/98437584/262309ef-cfc1-4540-9770-937eccb3e8fa)
+
 S-Chatbot is a Streamlit-based chatbot powered by GooglePalm language model. It allows users to interact with the chatbot and receive responses from the model.
 
 ## Features
