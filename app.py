@@ -47,7 +47,7 @@ container = st.container()
 
 with container:
     with st.form(key='my_form',clear_on_submit=True):
-        user_input = st.text_area("Your chat goes here:",key='input',height=10)
+        user_input = st.text_input("Your chat goes here:",key='input')
         submit_button = st.form_submit_button(label="Send")
         if submit_button:
             st.session_state['messages'].append(user_input)
@@ -105,5 +105,5 @@ def set_bg_from_url(url, opacity=1):
     )
 
 # Set background image from URL
-set_bg_from_url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fhuman-interaction-with-robot-smartphone-chatbot-artificial-intelligence-chatting-with-ai-answer-question-black-illustration_40811859.htm&psig=AOvVaw1RcPn1nnnMLeHBY2r9SlZS&ust=1702656767675000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDG7POoj4MDFQAAAAAdAAAAABAI", opacity=0.875)
+set_bg_from_url("https://www.shutterstock.com/image-vector/concept-chatbot-cartoon-cute-white-260nw-2272101605.jpg", opacity=0.875)
  
