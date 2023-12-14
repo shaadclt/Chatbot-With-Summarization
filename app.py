@@ -63,7 +63,9 @@ with container:
                         message(st.session_state['messages'][i], key=str(i) + '_AI')
                         
                         
-footer = """
+def set_bg_from_url(url, opacity=1):
+    
+    footer = """
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <footer>
         <div style='visibility: visible;margin-top:7rem;justify-content:center;display:flex;'>
@@ -85,5 +87,23 @@ footer = """
         </div>
     </footer>
 """
-st.markdown(footer, unsafe_allow_html=True)
+    st.markdown(footer, unsafe_allow_html=True)
+    
+    
+    # Set background image using HTML and CSS
+    st.markdown(
+        f"""
+        <style>
+            body {{
+                background: url('{url}') no-repeat center center fixed;
+                background-size: cover;
+                opacity: {opacity};
+            }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+# Set background image from URL
+set_bg_from_url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fhuman-interaction-with-robot-smartphone-chatbot-artificial-intelligence-chatting-with-ai-answer-question-black-illustration_40811859.htm&psig=AOvVaw1RcPn1nnnMLeHBY2r9SlZS&ust=1702656767675000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDG7POoj4MDFQAAAAAdAAAAABAI", opacity=0.875)
  
